@@ -2,6 +2,11 @@ import re
 from os import getenv
 from dotenv import load_dotenv
 from pyrogram import filters
+from asBASE import asJSON
+
+db = asJSON("as.json")
+
+load_dotenv()
 
 from OWNER import BOT_TOKEN, OWNER, OWNER_NAME, DATABASE, CHANNEL, GROUP, LOGS, VIDEO
 
@@ -31,10 +36,6 @@ CHANNEL = CHANNEL
 GROUP = GROUP
 LOGS = LOGS
 VIDEO = VIDEO
-
-db = asJSON("as.json")
-
-load_dotenv()
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
