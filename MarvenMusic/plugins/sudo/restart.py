@@ -18,7 +18,7 @@ from MarvenMusic.utils.database import (
     remove_active_video_chat,
 )
 from MarvenMusic.utils.decorators.language import language
-from MarvenMusic.utils.pastebin import AnonyBin
+from MarvenMusic.utils.pastebin import MarvenBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
