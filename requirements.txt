@@ -62,4 +62,3 @@ youtube-search-python
 phonenumbers
 pyromod
 lyricsgenius
-version
