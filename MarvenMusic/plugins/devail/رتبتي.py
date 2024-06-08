@@ -23,7 +23,7 @@ async def rotba(client, message):
     get = await client.get_chat_member(message.chat.id, message.from_user.id)
     if int(message.from_user.id) == ze:
        rotba= "مّمٌَـبـ ـࢪمـج السوࢪس"
-       if int(message.from_user.id) == ze2:
+    if int(message.from_user.id) == ze2:
        rotba= "مطور السورس"
     elif message.from_user.id in dev:
         rotba = "مطور اساسي"
