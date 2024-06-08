@@ -1,4 +1,4 @@
-import re
+///import re
 from os import getenv
 
 from dotenv import load_dotenv
@@ -12,6 +12,7 @@ load_dotenv()
 # Get this value from my.telegram.org/apps
 API_ID = int(getenv("API_ID", "10823881"))
 API_HASH = getenv("API_HASH", '339886e2109eb67203ce12022b32e035')
+
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 
