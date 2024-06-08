@@ -9,7 +9,7 @@ from config import appp, OWNER, OWNER_NAME, VIDEO
 from MarvenMusic.Data import get_data
 from googletrans import Translator
 from MarvenMusic.Data import (get_call, get_app, get_userbot, get_group, get_channel, must_join)
-from config import API_ID, API_HASH, MONGO_DB_URL, user, dev, call, logger, logger_mode, botname, helper as ass
+from cona import API_ID, API_HASH, MONGO_DB_URL, user, dev, call, logger, logger_mode, botname, helper as ass
 from motor.motor_asyncio import AsyncIOMotorClient as _mongo_client_
 from pymongo import MongoClient
 from youtube_search import YoutubeSearch
