@@ -5,7 +5,7 @@ from typing import Union
 from pyrogram import Client, filters
 from pyrogram import Client as client
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
-from config import appp, OWNER, OWNER_NAME, VIDEO
+from cona import appp, OWNER, OWNER_NAME, VIDEO
 from MarvenMusic.Data import get_data
 from googletrans import Translator
 from MarvenMusic.Data import (get_call, get_app, get_userbot, get_group, get_channel, must_join)
