@@ -5,7 +5,7 @@
 
 from typing import List, Union
 
-from pyrogram import filters
+from pyrogram import command
 
 
 other_filters = filters.group  & ~filters.via_bot & ~filters.forwarded
