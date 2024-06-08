@@ -2,7 +2,7 @@ import re
 from os import getenv
 from dotenv import load_dotenv
 from pyrogram import filters
-from asBASE import asJSON
+from asBASE import Marven
 
 db = asJSON("as.json")
 
