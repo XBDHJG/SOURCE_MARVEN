@@ -2,7 +2,7 @@ import re
 from os import getenv
 from dotenv import load_dotenv
 from pyrogram import filters
-from asBASE import asJSON
+
 from OWNER import BOT_TOKEN, OWNER, OWNER_NAME, DATABASE, CHANNEL, GROUP, LOGS, VIDEO
 
 if os.path.exists("local.env"):
