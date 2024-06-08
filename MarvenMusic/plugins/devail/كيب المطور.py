@@ -15,7 +15,7 @@ from pyrogram import filters
 from pyrogram.errors import MessageIdInvalid, FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message, ReplyKeyboardMarkup, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardRemove
 from pytgcalls.__version__ import __version__ as pytgver
-
+from MarvenMusic import app
 import config
 from config import OWNER_ID
 from MarvenMusic import YouTube, app
