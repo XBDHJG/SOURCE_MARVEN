@@ -17,7 +17,7 @@ from pyrogram.enums import ParseMode, ChatMemberStatus
 async def rotba(client, message):
     dev = (OWNER_ID)
     ze = (5651614955)
-    async def rotba(client, message):
+ async def rotba(client, message):
     dev = (OWNER_ID)
     ze2 = (6403627774)
     get = await client.get_chat_member(message.chat.id, message.from_user.id)
