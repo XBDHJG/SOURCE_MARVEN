@@ -1,7 +1,7 @@
 # متطلبات التنصيب #
 OWNER = ["XB_DV"]
 OWNER_NAME = "devail"
-BOT_TOKEN = "7425080038:AAF1nEgPJq39yUeICySir7T6FM_UqeodCfg"
+BOT_TOKEN = "7432583751:AAG4OwTUqqvW40SSKLIb_iuj8E24v1mm8XM"
 DATABASE = "mongodb+srv://Elkber:Elkber@cluster0.feuljpn.mongodb.net/?retryWrites=true&w=majority"
 CHANNEL = "https://t.me/zombieyy"
 GROUP = "https://t.me/hvfffgyuuiiijj"
