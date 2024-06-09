@@ -33,6 +33,7 @@ GROUP = GROUP
 LOGS = LOGS
 VIDEO = VIDEO
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
+MONGO_DB_URL = DATABASE
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Get this value from @DffD1bot on Telegram by /id
