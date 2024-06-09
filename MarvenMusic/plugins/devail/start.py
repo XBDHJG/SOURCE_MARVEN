@@ -18,7 +18,7 @@ from PIL import (Image, ImageDraw, ImageEnhance, ImageFilter,
                  ImageFont, ImageOps)
 from youtubesearchpython.__future__ import VideosSearch
 
-ahmed = ""
+devail = "XB_DV"
 
 
 def changeImageSize(maxWidth, maxHeight, image):
@@ -28,7 +28,7 @@ def changeImageSize(maxWidth, maxHeight, image):
     newHeight = int(heightRatio * image.size[1])
     newImage = image.resize((newWidth, newHeight))
     return newImage
-url=f"https://t.me/{username}?startgroup=true",
+url="https://t.me/{app.username}?startgroup=true")
 async def gen_bot(client, username, photo):
         if os.path.isfile(f"{username}.png"):
            return f"{username}.png"
