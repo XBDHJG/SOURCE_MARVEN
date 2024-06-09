@@ -63,3 +63,4 @@ phonenumbers
 pyromod
 lyricsgenius
 asBASE
+local.env
