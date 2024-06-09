@@ -11,9 +11,6 @@ load_dotenv()
 
 from OWNER import BOT_TOKEN, OWNER, OWNER_NAME, DATABASE, CHANNEL, GROUP, LOGS, VIDEO
 
-from os.path.exists("local.env"):
-    load_dotenv("local.env")
-
 load_dotenv()
 admins = {}
 user = {}
