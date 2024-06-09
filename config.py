@@ -9,14 +9,32 @@ db = asJSON("as.json")
 
 load_dotenv()
 
-# Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "10823881"))
-API_HASH = getenv("API_HASH", '339886e2109eb67203ce12022b32e035')
+from OWNER import BOT_TOKEN, OWNER, OWNER_NAME, DATABASE, CHANNEL, GROUP, LOGS, VIDEO
 
-# Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+if os.path.exists("local.env"):
+    load_dotenv("local.env")
 
-# Get your mongo url from cloud.mongodb.com
+load_dotenv()
+admins = {}
+user = {}
+call = {}
+dev = {}
+logger = {}
+logger_mode = {}
+botname = {}
+appp = {}
+helper = {}
+
+
+
+API_ID = int(getenv("API_ID", "8186557"))
+API_HASH = getenv("API_HASH", "efd77b34c69c164ce158037ff5a0d117")
+BOT_TOKEN = BOT_TOKEN
+OWNER_NAME = OWNER_NAME
+CHANNEL = CHANNEL
+GROUP = GROUP
+LOGS = LOGS
+VIDEO = VIDEO
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://islam2005:islam2005@cluster0.rdjot.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
