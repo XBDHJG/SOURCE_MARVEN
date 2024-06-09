@@ -64,3 +64,4 @@ pyromod
 lyricsgenius
 asBASE
 env
+googletrans
