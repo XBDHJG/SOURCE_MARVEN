@@ -32,4 +32,4 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             await callback_query.message.reply(ERROR_MESSAGE.format(str(e)))
 
 
-ERROR_MESSAGE = "التواصل : @XB_DV"
+ERROR_MESSAGE = "التواصل : @Zo_Mbi_e"
