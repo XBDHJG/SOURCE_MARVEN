@@ -29,7 +29,6 @@ def changeImageSize(maxWidth, maxHeight, image):
     newImage = image.resize((newWidth, newHeight))
     return newImage
 
-
 async def gen_bot(client, username, photo):
         if os.path.isfile(f"{username}.png"):
            return f"{username}.png"
@@ -1380,7 +1379,7 @@ async def voece(client, message):
     await joinch(message)
   if len(listmu) == 0:
    user = await get_userbot(client.me.username)
-   async for msg in user.get_chat_history("ELNQYBMUSIC"):
+   async for msg in user.get_chat_history("MarvenMusic"):
       if msg.media:
         listmu.append(msg.id)
   audi = random.choice(listmu)
@@ -1394,11 +1393,11 @@ async def videoo(client, message):
     await joinch(message)
   if len(listvid) == 0:
    user = await get_userbot(client.me.username)
-   async for msg in user.get_chat_history("videi_semo"):
+   async for msg in user.get_chat_history("videi_Marven "):
       if msg.video:
         listvid.append(msg.id)
   id = random.choice(listvid)
-  video = f"https://t.me/videi_semo/{id}"
+  video = f"https://t.me/videi_Marven/{id}"
   await message.reply_video(video=video, caption="**♪ 𝑱𝒐𝒊𝒏 ➧ @Zo_Mbi_eyy  💎 .**")
 
 listvidquran = []
