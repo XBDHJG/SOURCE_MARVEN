@@ -12,6 +12,8 @@ class Marven(Client):
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
         )
+    bot = Client(
+    "mo",
     plugins=dict(root="Maker")
     )
 
