@@ -35,7 +35,7 @@ VIDEO = VIDEO
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://islam2005:islam2005@cluster0.rdjot.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
-
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("OWNER_ID","5651614955"))
 
