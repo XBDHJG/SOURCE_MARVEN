@@ -1,6 +1,7 @@
 from pyrogram import Client, idle
 from config import API_ID, API_HASH, BOT_TOKEN
 from pyromod import listen
+from ..logging import LOGGER
 
 
 class Marven(Client):
