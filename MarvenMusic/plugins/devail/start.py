@@ -28,7 +28,6 @@ def changeImageSize(maxWidth, maxHeight, image):
     newHeight = int(heightRatio * image.size[1])
     newImage = image.resize((newWidth, newHeight))
     return newImage
-url="https://t.me/{app.username}?startgroup=true")
 async def gen_bot(client, username, photo):
         if os.path.isfile(f"{username}.png"):
            return f"{username}.png"
