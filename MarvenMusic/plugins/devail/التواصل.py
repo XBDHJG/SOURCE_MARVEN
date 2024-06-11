@@ -1,14 +1,13 @@
-import random
-from pyrogram import Client, filters, idle
-from pyromod import listen
-from pyrogram import Client as app
-from time import time
-from config import OWNER, OWNER_NAME, VIDEO
-from MarvenMusic.plugins.misc.info import (is_served_chat, add_served_chat, is_served_user, add_served_user, get_served_chats, get_served_users, del_served_chat, joinch)
-from MarvenMusic.plugins.misc.Data import (get_dev, get_bot_name, set_bot_name, get_logger, get_group, get_channel, get_dev_name, get_groupsr, get_channelsr, get_userbot)
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, Message, User, ChatPrivileges, ReplyKeyboardRemove, CallbackQuery
-from pyrogram import enums
-from pyrogram.enums import ChatType, ChatMemberStatus, ParseMode, ChatMemberStatus
+imimport asyncio
+import os
+import requests
+import pyrogram
+from pyrogram import Client, filters, emoji
+from strings.filters import command
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup
+from pyrogram.errors import MessageNotModified
+from AnonXMusic import app
+from config import OWNER_ID, LOGGER_ID
 import os
 import re
 import textwrap
